@@ -1,0 +1,257 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ccc;
+  margin: 200px 100px;
+}
+
+.box {
+  display: flex;
+  justify-content: space-between;
+  transition: 1s;
+  overflow: hidden;
+}
+
+.box .item {
+  overflow: hidden;
+  width: 150px;
+  height: 150px;
+  border: 1px solid transparent;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  transition: 1s;
+  background-color: #fff;
+}
+
+.item i:first-child {
+  font-size: 80px;
+  transform: scale(1);
+  position: absolute;
+  transition: 1s;
+}
+
+.item i:last-child {
+  position: absolute;
+  font-size: 80px;
+  transform: scale(0);
+  color: #000;
+  transition: 1s;
+}
+
+/*  */
+
+.item1 {
+  overflow: hidden;
+  width: 150px;
+  height: 150px;
+  border: 1px solid transparent;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: #fff;
+
+  transition: 1s;
+}
+
+.item1 i:first-child {
+  font-size: 80px;
+  transform: scale(1);
+  position: absolute;
+  transition: 1s;
+}
+
+.item1 i:last-child {
+  position: absolute;
+  font-size: 80px;
+  transform: scale(0);
+  color: #000;
+  transition: 1s;
+}
+
+/*  */
+
+.box .item2 {
+  overflow: hidden;
+  width: 150px;
+  height: 150px;
+  border: 1px solid transparent;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  transition: 1s;
+  background-color: #fff;
+}
+
+.item2 i:first-child {
+  font-size: 80px;
+  transform: scale(1);
+  position: absolute;
+  transition: 1s;
+}
+
+.item2 i:last-child {
+  position: absolute;
+  font-size: 80px;
+  transform: scale(0);
+  color: #000;
+  transition: 1s;
+}
+/*  */
+
+/*  */
+
+.box .item3 {
+  overflow: hidden;
+  width: 150px;
+  height: 150px;
+  border: 1px solid transparent;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  transition: 1s;
+  background-color: #fff;
+}
+
+.item3 i:first-child {
+  font-size: 80px;
+  transform: scale(1);
+  position: absolute;
+  transition: 1s;
+}
+
+.item3 i:last-child {
+  position: absolute;
+  font-size: 80px;
+  transform: scale(0);
+  color: #000;
+  transition: 1s;
+}
+/*  */
+
+/*  */
+
+.box .item4 {
+  overflow: hidden;
+  width: 150px;
+  height: 150px;
+  border: 1px solid transparent;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  transition: 1s;
+  background-color: #fff;
+}
+
+.item4 i:first-child {
+  font-size: 80px;
+  transform: scale(1);
+  position: absolute;
+  transition: 1s;
+}
+
+.item4 i:last-child {
+  position: absolute;
+  font-size: 80px;
+  transform: scale(0);
+  color: #000;
+  transition: 1s;
+}
+/*  */
+
+.bg_blu {
+  width: 200px;
+  height: 200px;
+  transform: rotate(45deg);
+  background-color: blue;
+  position: absolute;
+  top: 150px;
+  right: 150px;
+  transition: 1s;
+  border-radius: 30px;
+  border-bottom-left-radius: 0;
+}
+
+.item:hover .bg_blu {
+  position: absolute;
+  top: -50px;
+  right: -50px;
+}
+
+.item:hover i:last-child {
+  transform: scale(1);
+}
+
+.item:hover i:first-child {
+  transform: scale(0);
+}
+
+.item1:hover .bg_blu {
+  position: absolute;
+  top: -50px;
+  right: -50px;
+}
+
+.item1:hover i:last-child {
+  transform: scale(1);
+}
+
+.item1:hover i:first-child {
+  transform: scale(0);
+}
+
+.item2:hover .bg_blu {
+  position: absolute;
+  top: -50px;
+  right: -50px;
+}
+
+.item2:hover i:last-child {
+  transform: scale(1);
+}
+
+.item2:hover i:first-child {
+  transform: scale(0);
+}
+
+.item3:hover .bg_blu {
+  position: absolute;
+  top: -50px;
+  right: -50px;
+}
+
+.item3:hover i:last-child {
+  transform: scale(1);
+}
+
+.item3:hover i:first-child {
+  transform: scale(0);
+}
+
+.item4:hover .bg_blu {
+  position: absolute;
+  top: -50px;
+  right: -50px;
+}
+
+.item4:hover i:last-child {
+  transform: scale(1);
+}
+
+.item4:hover i:first-child {
+  transform: scale(0);
+}
